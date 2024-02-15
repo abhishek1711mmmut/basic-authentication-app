@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-style {
+  @apply rounded-lg bg-gray-700 p-3 text-[16px] leading-[24px] text-white shadow-[0_1px_0_0] shadow-white/50 placeholder:text-gray-400 focus:outline-none;
+}
+.lable-style {
+  @apply text-[14px] text-gray-100;
+}
